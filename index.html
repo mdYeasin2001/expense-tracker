@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <section class="container py-5">
+        <div class="row text-center mb-3">
+            <div class="col-md-12">
+                <h1>Expense Tracker</h1>
+                <h3 class="text-success">Add A New Item:</h3>
+            </div>
+        </div>
+        <form action="">
+            <div class="row mb-3">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <input class="form-control" type="text" name="" id="person-name" placeholder="Name">
+                </div>
+                <div class="col-md-6">
+                    <input id="subject" class="form-control" type="text" placeholder="Why the cost">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <input id="date" class="form-control" type="date" name="" id="">
+                </div>
+                <div class="col-md-6">
+                    <input id="amount" class="form-control" type="text" placeholder="Amount">
+                </div>
+            </div>
+            <div class="text-center ">
+                <button class="btn btn-success" type="submit">Add Expense</button>
+            </div>
+        </form>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-dark table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Why The Cost</th>
+                            <th>Date</th>
+                            <th>Amount</th>
+                            <th class="text-center">Remove</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Yeasin</td>
+                            <td>buying shirt</td>
+                            <td>16 Dec, 2020</td>
+                            <td>400 tk</td>
+                            <td class="text-center">❌</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
